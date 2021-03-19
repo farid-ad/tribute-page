@@ -1,21 +1,62 @@
-html {
-  min-height: 100%;
-  background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+}
+.headline {
+    color:  orangered;
+    ;font-size: 35px;
+}
+body {
+    background-color: rgb(207, 247, 245);
 }
 
-.myName {
-  font-style: italic;
-  font-size: 100px;
-  text-align: center;
-  color: rgb(255, 255, 255);
+.border-image {
+    border-color: black;
+    border-width: 3.5px;
+    border-style: solid;
+    border-radius: 100%;
 }
 
-.info-item {
-  display: flex;
-  align-items: center;
-  list-style: none;
+#image {
+    width: 750px;
+    margin: auto;
+    display: block
+}
+
+#img-div {
+    background: rgb(45, 205, 245);
+    padding: 10px;
+    margin: 0;
+
+}
+
+
+#img-caption {
+    font-size: 20px;
+    text-align: center;
+}
+
+#headline {
+    font-size: 40px;
+}
+
+#tribute-info {
+    margin: auto;
+    display: block;
+
+    width: 40vw;
+
+}
+li{
+    font-size: x-large;
+    font-family: initial;
+    font-style: oblique;
+}
+.toSite { 
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
 }
